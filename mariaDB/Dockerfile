@@ -12,7 +12,7 @@ COPY script.sh /home
 
 RUN chmod +x /home/script.sh
 
-# ENTRYPOINT ["sh", "/home/script.sh"]
+ENTRYPOINT ["sh", "/home/script.sh"]
 
 EXPOSE 8080
 

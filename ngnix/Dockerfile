@@ -10,8 +10,6 @@ COPY cert.pem /etc/nginx/cert/server.pem
 
 COPY key.pem /etc/nginx/private/server.pem
 
-COPY server /server
-
 EXPOSE 443
 
 CMD ["nginx", "-g", "daemon off;"]
