@@ -1,4 +1,0 @@
-sh config.sh mariadb --user
-
-exec $@
-// ENTRYPOINT ["sh", "config.sh"]
